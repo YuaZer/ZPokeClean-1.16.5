@@ -1,0 +1,12 @@
+name: ZPokeClean
+main: io.github.yuazer.zpokeclean.Main
+version: 0.1
+authors:
+  - YuaZer
+depend:
+  - ZaxLib
+commands:
+  zpokeclean:
+    aliases:
+      - zpc
+    description: Z菌宝可梦清理-1.16.5

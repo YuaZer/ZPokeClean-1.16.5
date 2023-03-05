@@ -1,0 +1,32 @@
+Message:
+  cleanMessage: "&a宝可梦清理成功! &b%world%世界&a当前清理了&e%total%&a个宝可梦"
+  reload: "&b[ZPokeClean] &a重载成功"
+#启用清理的世界
+EnableWorld:
+  - "World"
+  - "test"
+#不被清理的精灵名
+SafePokemon:
+  - "Absol"
+  - "Charmendar"
+#全局设置
+GlobalSetting:
+  #清理精灵的间隔(单位:分钟)
+  TimeSetting: 2
+  #是否清理神兽
+  lengendary: false
+  #是否清理异兽
+  ultrabeast: false
+  #是否清理闪光
+  shiny: false
+  #是否清理Boss
+  boss: true
+  #是否清理非自然生成的精灵 如 /pokespawn 和 幸运方块生成的精灵
+  unNormal: true
+#清理前提示(单位:秒)
+ClearMessage:
+  #清理的60秒前发出提示
+  60: "&7[&c!&7] &f世界中普通野生精灵将在 &a60 &f秒后被强制清场"
+  30: "&7[&c!&7] &f世界中普通野生精灵将在 &a30 &f秒后被强制清场"
+  10: "&7[&c!&7] &f世界中普通野生精灵将在 &a10 &f秒后被强制清场"
+  5: "&7[&c!&7] &f世界中普通野生精灵将在 &a5 &f秒后被强制清场"

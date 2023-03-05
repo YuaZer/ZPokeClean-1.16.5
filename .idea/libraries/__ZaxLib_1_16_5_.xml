@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="[自用工具库]ZaxLib[1.16.5]">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../开发API/[自用工具库]ZaxLib[1.16.5].jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../开发API/Pixelmon-1.16.5-9.1.2-server.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
