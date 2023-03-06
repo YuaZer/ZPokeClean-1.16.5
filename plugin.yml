@@ -1,6 +1,6 @@
 name: ZPokeClean
 main: io.github.yuazer.zpokeclean.Main
-version: 0.1
+version: 0.2
 authors:
   - YuaZer
 depend:

@@ -17,6 +17,7 @@ public class MainCommand implements CommandExecutor {
             }
             if (args[0].equalsIgnoreCase("reload") && sender.isOp()) {
                 Main.getInstance().reloadConfig();
+                Main.getInstance().setTimeMsg(Main.getInstance().getConfig().getConfigurationSection("ClearMessage").getKeys(false));
                 sender.sendMessage(YamlUtils.getConfigMessage("Message.reload", Main.pluginName));
                 return true;
             }
